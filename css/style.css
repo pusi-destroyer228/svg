@@ -23,10 +23,30 @@
     }
 }
 
+.circlee {
+    fill: #fff;
+    animation: circlee 10s infinite;
+    animation-delay: 2s;
+}
+
 .circle{
     fill: #fcad3a;
     animation: circle 10s infinite;
     animation-delay: 2s;
+}
+
+@keyframes circlee{
+    0%{
+        fill: #fff;
+    }
+
+    50%{
+        fill: #000;
+    }
+
+    100%{
+        fill: #fff;
+    }
 }
 
 @keyframes circle{
