@@ -6,7 +6,7 @@
 .border-dashed {
     width: 201px;
     height: 201px;
-    border: 3px dashed #cccd;
+    border: 3px solid #cccd;
 }
 
 @keyframes bg{
