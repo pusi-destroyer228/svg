@@ -1,7 +1,12 @@
 .les {
-    border: 3px solid #cccd;
     animation: bg 10s infinite;
     animation-delay: 2s;
+}
+
+.border-dashed {
+    width: 201px;
+    height: 201px;
+    border: 3px dashed #cccd;
 }
 
 @keyframes bg{
