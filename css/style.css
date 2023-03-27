@@ -1,0 +1,69 @@
+.les {
+    border: 3px solid #cccd;
+    animation: bg 10s infinite;
+    animation-delay: 2s;
+}
+
+@keyframes bg{
+    0%{
+        background: #fff;
+    }
+
+    50%{
+        background: #000;
+    }
+
+    100%{
+        background: #fff;
+    }
+}
+
+.circle{
+    fill: #fcad3a;
+    animation: circle 10s infinite;
+    animation-delay: 2s;
+}
+
+@keyframes circle{
+    0% {
+        fill: #fcad3a;
+        transform: translate(0, 0);
+    }
+
+    25%{
+        fill: #fff;
+        transform: translate(32.5px, 0px);
+    }
+
+    50% {
+        fill: #fff;
+        transform: translate(67px, 0px);
+    }
+
+    100% {
+        fill: #fcad3a;
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes circle{
+    0% {
+        fill: #fcad3a;
+        transform: translate(0, 0);
+    }
+
+    25%{
+        fill: #fff;
+        transform: translate(32.5px, 0px);
+    }
+
+    50% {
+        fill: #fff;
+        transform: translate(67px, 0px);
+    }
+
+    100% {
+        fill: #fcad3a;
+        transform: translate(0px, 0px);
+    }
+}
